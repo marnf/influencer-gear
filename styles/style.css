@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+hr {
+    opacity: 0.2;
+}
+
+.mid-content {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+
+
+
+/* header section */
+
+.header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.header-left {
+    width: 50%;
+}
+
+.header-left h2 {}
+
+.header-right {
+
+    display: flex;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu ul {
+    display: flex;
+}
+
+.header-menu ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+}
+
+.header-icon {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* banner section */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    align-items: center;
+    background-image: url(../images/Circle\ design.svg);
+    background-position: 725px 0px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.banner-content {
+    width: 50%;
+}
+
+.banner-content h1 {
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.banner-content p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.banner-point {
+    display: flex;
+
+    padding: 0px 7px;
+    gap: 5px;
+    width: 158px;
+    height: 43px;
+    background: #E02C6D;
+    border-radius: 21px;
+}
+
+.banner-p {
+    margin: 12px 7px 0px 11px;
+    color: white;
+
+}
+
+.banner-p-icon {
+    margin-top: 12px;
+}
+
+.banner-pic {
+    margin-right: 42px;
+
+}
+
+.banner-pic img {
+    width: 440px;
+    height: 414px;
+}
+
+/* brand section */
+.brand-section {
+    display: grid;
+    margin-top: 10px;
+    padding: 20px;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+/* main section
+................... */
+
+.main {}
+
+.main-title {}
+
+.main-title h3 {}
+
+.main-area {}
+
+.main-box {}
+
+.box-pic {}
+
+.box-pic img {}
+
+.box-content {}
+
+.box-content h3 {}
+
+.box-content h4 {}
+
+.box-icon {}
+
+.rating {}
+
+.box-icon p {}
+
+.box-last-content {}
+
+.box-last-content p {}
